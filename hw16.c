@@ -18,9 +18,8 @@ int main() {
   }
 
   if(child1 && child2) {
-    int w;
     int status;
-    w = wait(&status);
+    wait(&status);
     printf("Parent process complete.\n");
   }
   else {
