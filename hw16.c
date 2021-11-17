@@ -14,6 +14,7 @@ int main() {
   int child2;
 
   if(child1) {
+    rand();
     child2 = fork();
   }
 
